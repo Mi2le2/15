@@ -1,0 +1,267 @@
+/*Адаптивные стили*/
+/*Планшет и меньше*/
+@media (max-width: 768px){
+    *{
+        font-size: 70%;
+    }
+    .h5{
+        font-size: 2rem !important;
+    }
+    .width-100-percent-mobile{
+        width: 100% !important;
+    }
+    .margin-0-mobile{
+        margin:0 !important;
+    }
+}
+
+/*Телефон и меньше*/
+@media (max-width: 600px){
+    *{
+        font-size: 60%;
+    }
+
+}
+
+
+/*Стили фона*/
+.background-1{
+    background: url(img/img1.jpg);
+}
+.background-2{
+    background: url(img/img9.jpg);
+}
+.background-3{
+    background: url(img/img12.jpg);
+}
+
+
+.bg-cover{
+    background-size: cover;
+}
+.bg-center{
+    background-position: center center;
+}
+.bg-no-repeat{
+    background-repeat: no-repeat;
+}
+
+
+.bg-green{
+    background-color: #83d683;
+}
+.bg-lightgrey{
+    background-color: rgb(228, 227, 227);
+}
+.bg-white{
+    background-color: white;
+}
+
+.hover-bg-darkgreen:hover{
+    background-color: rgb(59, 197, 59);
+}
+
+
+
+/*Стили текста*/
+.text-white{
+    color: white;
+}
+.text-grey{
+    color: grey;
+}
+
+.text-weight-bold{
+    font-weight: bold;
+}
+.text-weight-thin{
+    font-weight: 100;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.h1{
+    font-size: 7rem;
+}
+.h2{
+    font-size: 4rem;
+}
+.h3{
+    font-size: 2.5rem;
+}
+.h4{
+    font-size: 1.8rem;
+}
+.h5{
+    font-size: 1.3rem;
+}
+
+
+/*Стили высоты и ширины*/
+.height-100-percent{
+    height: 100vh;
+}
+.height-75-percent{
+    height: 75vh;
+}
+
+.height-200-px{
+    height: 200px;
+}
+.height-150-px{
+    height: 150px;
+}
+.height-100-px{
+    height: 100px;
+}
+.height-30-px{
+    height: 30px;
+}
+.height-5-px{
+    height: 5px;
+}
+
+
+.width-100-percent{
+    width: 100%;
+}
+.width-90-percent{
+    width: 90%;
+}
+.width-75-percent{
+    width: 75%;
+}
+.width-60-percent{
+    width: 60%;
+}
+.width-50-percent{
+    width: 50%;
+}
+.width-40-percent{
+    width: 40%;
+}
+.width-30-percent{
+    width: 30%;
+}
+.width-10-percent{
+    width: 10%;
+}
+
+.width-200-px{
+    width: 200px;
+}
+.width-150-px{
+    width: 150px;
+}
+.width-100-px{
+    width: 100px;
+}
+.width-30-px{
+    width: 30px;
+}
+
+.min-width-300px{
+    min-width: 350px;
+}
+.min-width-400px{
+    min-width: 400px;
+}
+
+
+
+/*Стили отступов*/
+.margin-0{
+    margin: 0;
+}
+.margin-1-rem{
+    margin: 1rem;
+}
+.margin-2-rem{
+    margin: 2rem;
+}
+
+.margin-top-0{
+    margin-top: 0;
+}
+.margin-top-1-rem{
+    margin-top: 1rem;
+}
+.margin-top-2-rem{
+    margin-top: 2rem;
+}
+.margin-top-3-rem{
+    margin-top: 3rem;
+}
+
+.margin-bottom-0{
+    margin-bottom: 0;
+}
+.margin-bottom-1-rem{
+    margin-bottom: 1rem;
+}
+.margin-bottom-2-rem{
+    margin-bottom: 2rem;
+}
+
+.padding-1-rem{
+    padding: 1rem;
+}
+
+
+
+
+/* Стили отображения */
+.display-block{
+    display: block;
+}
+.display-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+
+.float-left{
+    float: left;
+}
+
+
+
+/* Стили границ */
+.border-green{
+    border: 4px solid #83d683;
+}
+
+.border-0{
+    border: none;
+}
+
+.border-radius-30-px{
+    border-radius: 30px;
+}
+
+.border-radius-100-px{
+    border-radius: 100px;
+}
+
+.border-radius-50-percent{
+    border-radius: 50%;
+}
